@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+        <Tentura_Arewrite>
+            <version>0.1.0</version>
+        </Tentura_Arewrite>
+    </modules>
+  <global>
+    <models>
+        <tenturaarewritecontroller>
+             <class>Tentura_Arewrite_Controller_Observer</class>
+        </tenturaarewritecontroller>
+    </models>
+    <events>
+      <adminhtml_controller_action_predispatch_start>
+        <observers>
+          <tentura_themeoverride_observer>
+            <type>singleton</type>
+            <!-- inchooadminthemecontroller/observer  -->
+            <class>Tentura_Arewrite_Controller_Observer</class>
+            <method>overrideTheme</method>
+          </tentura_themeoverride_observer>
+        </observers>
+      </adminhtml_controller_action_predispatch_start>      
+    </events>
+  </global>
+  <adminhtml>
+  	<layout>
+		<updates>
+			<atemplate>
+				<file>atemplate.xml</file>
+			</atemplate>
+		</updates>
+	</layout>
+  </adminhtml>
+</config>

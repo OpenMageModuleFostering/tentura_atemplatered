@@ -1,0 +1,862 @@
+body{
+	background: #fff !important;
+	font: 13px/1.5em Trebuchet ms, geneva, Arial, Helvetica, sans-serif;
+}
+input.input-text, textarea, select, .field-100 textarea, .field-100 input.input-text,
+button, .form-button, button:hover, .form-button:hover, .message-popup .message-popup-head a, .message-popup .message-popup-head a:hover, .config-heading .button span, .magento_content, .magento_content label{
+	font-size: 12px;
+	line-height: 1.5em;
+}
+input.input-text, textarea, select, .field-100 textarea, .field-100 input.input-text, button, .form-button, button:hover, .form-button:hover, .message-popup .message-popup-head a, .message-popup .message-popup-head a:hover, .config-heading .button span, .magento_title, .magento_content, .magento_content label{
+	font-family: Trebuchet ms, geneva, Arial, Helvetica, sans-serif !important;
+}
+body, label, input.input-text, textarea, select, .field-100 textarea, .field-100 input.input-text, .form-list td.scope-label, h3, .content-header h3, .popup-window .content-header h3, .magento_content, .magento_content label{
+	color: #111;
+}
+a, a:hover{
+	color: #f90;
+}
+#page-help-link, .header-right a, .header-right a:hover, .dashboard-container .entry-edit .a-center .nowrap, .dashboard-container table td + td .box .entry-edit .a-center .nowrap, .grand-total{
+	color: #f90 !important;
+}
+button:hover, .form-button:hover, a:hover, .header-right a:hover{
+	opacity: 0.8;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80); 
+}
+
+ul.tabs-horiz li a, .entry-edit-head, .entry-edit, ul.tabs-horiz, .dialog table.top.table_window, .massaction, .headings, .message-popup-head, .middle dl.accordion dt.open, .section-config.active div.collapseable, .entry-edit .box-left, .entry-edit .box-right, #product_attribute_tabs .entity-edit, .actions + .grid .hor-scroll, .actions + .grid, #api2_attributes .hor-scroll{
+	border-radius: 5px 5px 0 0;
+}
+.entry-edit fieldset.a-center, .entry-edit fieldset, .entry-edit .fieldset, #nav ul, .dialog table.mid.table_window, .message-popup-content, .entry-edit .entry-edit-head + fildset .grid table, .order-totals, .config.collapseable, .grid  .data tbody:last-child tr:last-child td:last-child.empty-text, .section-config.active .collapseable, .reset-theme, #address_list li:last-child{
+	border-radius: 0 0 5px 5px;
+}
+.dashboard-container, .box, .dashboard-container table td + td .box .entry-edit, .switcher, .dialog, .message-popup, ul.tabs, .tier .data, .grid table.border, .actions + .grid .hor-scroll .data, .actions + .grid .data, .adminhtml-api2-attribute-index .grid .hor-scroll .data, .adminhtml-system-currency-index .grid table, .adminhtml-system-currencysymbol-index .grid .hor-scroll .data, .adminhtml-system-currencysymbol-index .fieldset-wide, .store-scope .tree-store-scope, .custom-options .option-box, .super-attributes li.attribute, .middle dl.accordion dt, .section-config .collapseable, .dashboard-container table td + td .entry-edit, .dashboard-container table td + td .box, #productsOrderedGrid_table, #productsReviewedGrid_table, #customersNewestGrid_table, #customersMostGrid_table, .login-form, .legal, .magento-login-logo, .magento-login-logo img, .content-header + .entry-edit #sales_order_view_tabs_order_history_content fieldset, .product-configure-popup, .options-box .option-box, .login-logo-img, .loader, #promo_catalog_edit_tabs_main_section_content .fieldset, #convert_profile_tabs_upload_content fieldset, #config_edit_form .section-config, #template_configuration .section-config, #answers_container .entry-edit-head, #answers_container .fieldset-wide, .backup-dialog, .adminhtml-sales-order-shipment-new #ship_items_container .box-right.entry-edit .order-totals, .middle .notification-global, .backup-dialog .entry-edit{
+	border-radius: 5px;
+}
+.actions + .grid .data .headings th:first-child, .form-list .grid .data .headings th:first-child, #answers_container .fieldset-wide + .fieldset-wide, .content-header + div div.grid .hor-scroll .data .headings th:first-child, #rateForm .grid .headings th:first-child, #currency_symbols_form .grid .headings th:first-child, #connect_extension_edit_tabs_authors_content .grid .headings th:first-child, #connect_extension_edit_tabs_dependencies_content .grid .data .headings th:first-child, #contents_fieldset .data .headings th:first-child, .form-list .value .grid .headings th:first-child, #product_options_container .grid .headings th:first-child, .atemplate-example .data .headings th:first-child, #grid_tab_content table .headings th:first-child, .actions + div .massaction td:first-child, #cache_grid .massaction td:first-child, #indexer_processes_grid .massaction td:first-child{
+	border-top-left-radius: 5px !important;
+}
+.actions + .grid .data .headings th:last-child, .form-list .grid .data .headings th:last-child, #answers_container .fieldset-wide + .fieldset-wide, .content-header + div div.grid .hor-scroll .data .headings th:last-child, #rateForm .grid .headings th:last-child, #currency_symbols_form .grid .headings th:last-child, #connect_extension_edit_tabs_authors_content .grid .headings th:last-child, #connect_extension_edit_tabs_dependencies_content .grid .data .headings th:last-child, #contents_fieldset .data .headings th:last-child, .form-list .value .grid .headings th:last-child, #product_options_container .grid .headings th:last-child, .atemplate-example .data .headings th:last-child, #grid_tab_content table .headings th:last-child, .actions + div .massaction td:last-child, #cache_grid .massaction td:last-child, #indexer_processes_grid .massaction td:last-child{
+	border-top-right-radius: 5px !important;
+}
+.grid table tbody:last-child tr:last-child td:first-child, .table_window .magento_w, .create-order-sidebar-container, #gridProductsSold .data tbody tr:last-child td:first-child, #gridAccounts .data tbody tr:last-child td:first-child, #gridTotalsCustomer .data tbody tr:last-child td:first-child, #gridOrdersCustomer .data tbody tr:last-child td:first-child, .backup-dialog .buttons-set{
+	border-bottom-left-radius: 5px;
+}
+.grid table tbody:last-child tr:last-child td:last-child, .table_window .magento_e, .create-order-sidebar-container, #gridProductsSold .data tbody tr:last-child td:last-child, #gridAccounts .data tbody tr:last-child td:last-child, #gridTotalsCustomer .data tbody tr:last-child td:last-child, #gridOrdersCustomer .data tbody tr:last-child td:last-child, .backup-dialog .buttons-set{
+	border-bottom-right-radius: 5px;
+}
+.grid .data tfoot tr:last-child td:first-child, .totals th:first-child, #gridProductsSold .data tfoot th:first-child, #gridAccounts .data tfoot th:first-child, #gridTotalsCustomer .data tfoot th:first-child, #gridOrdersCustomer .data tfoot th:first-child{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.grid .data tfoot tr:last-child td:last-child, .totals th:last-child, #gridProductsSold .data tfoot th:last-child, #gridAccounts .data tfoot th:last-child, #gridTotalsCustomer .data tfoot th:last-child, #gridOrdersCustomer .data tfoot th:last-child{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.fieldset-wide .grid .data tfoot tr:last-child td:first-child, .entry-edit-head + #product_options_container, .content-header + div .actions + div + div.grid .data .headings th:first-child, .content-header + div div.grid .hor-scroll .data.order-tables th:first-child, #connect_extension_edit_tabs_authors_content .grid .data tfoot td:first-child, #connect_extension_edit_tabs_dependencies_content .grid .data td:first-child, #contents_fieldset .data tfoot td:first-child, #cache_grid_table .headings th:first-child, #customer_info_tabs_customer_edit_tab_view_content .entry-edit + .entry-edit .entry-edit-head + .grid .data tfoot tr:last-child td:first-child, #product_attribute_tabs_labels_content .entry-edit-head + .box, #promo_catalog_edit_tabs_main_section_content .fieldset{
+	border-top-left-radius: 0 !important;
+}
+.fieldset-wide  .grid .data tfoot tr:last-child td:last-child, .entry-edit-head + #product_options_container, .content-header + div .actions + div + div.grid .data .headings th:last-child, .content-header + div div.grid .hor-scroll .data.order-tables th:last-child, #connect_extension_edit_tabs_authors_content .grid .data tfoot td:last-child, #connect_extension_edit_tabs_dependencies_content .grid .data td:last-child, #contents_fieldset .data tfoot td:last-child, #cache_grid_table .headings th:last-child, #customer_info_tabs_customer_edit_tab_view_content .entry-edit + .entry-edit .entry-edit-head + .grid .data tfoot tr:last-child td:last-child, #product_attribute_tabs_labels_content .entry-edit-head + .box, #promo_catalog_edit_tabs_main_section_content .fieldset{
+	border-top-right-radius: 0 !important;
+}
+#nav ul ul{
+	border-radius: 0 5px 5px 5px !important;
+}
+#customer_info_tabs_customer_edit_tab_view_content .box-left, #customer_info_tabs_customer_edit_tab_view_content .box-right, .adminhtml-report-statistics-index #anchor-content .grid .data .headings th, #indexer_processes_grid_table  .headings th{
+	border-radius: 0 !important;
+}
+
+.dashboard-container table tbody td + td .entry-edit{
+	overflow: visible;
+}
+.dashboard-container, .dashboard-container .entry-edit fieldset.a-center, .dashboard-container .entry-edit fieldset, .entry-edit .fieldset, .main-col-inner .fieldset, .main-col-inner fieldset, .login-form, .magento-login-logo, .entry-edit .entry-edit-head + fieldset{
+	border-style: solid !important;
+	border-color: #e5e5e5 !important;
+}
+.dashboard-container, .dashboard-container .entry-edit fieldset.a-center, .dashboard-container .entry-edit fieldset, .entry-edit .fieldset, .main-col-inner .fieldset, .main-col-inner fieldset, .login-form, .magento-login-logo, .entry-edit .entry-edit-head + fieldset{
+	border-width: 1px !important;
+}
+.product-configure-popup .entry-edit-head{
+	border-width: 0 0 1px 0 !important;
+}
+.grid tr.headings th a.sort-arrow-desc, .grid tr.headings th a.sort-arrow-asc, button, .form-button, .message-popup .message-popup-head a, .success-msg, .notice-msg, .error-msg, input.input-text, textarea, select, .field-100 textarea, .field-100 input.input-text, .show-color{
+	border-radius: 3px;
+}
+.box, .entry-edit fieldset, .entry-edit .fieldset{
+	background: #fafafa;
+}
+.header, .message-popup .message-popup-head a, ul.tabs-horiz, .nav-bar, .grid tr.headings, .massaction, .grid tr.filter, .grid tr.headings th a.sort-arrow-desc, .grid tr.headings th a.sort-arrow-asc, #nav li.active{
+	background-image: none;
+}
+.dialog table.top.table_window{
+	background-color: none !important;
+}
+.middle, .options-box .option-header, .massaction{
+	background: none !important;
+}
+.massaction, .magento-login-logo, ul.tabs li:first-child a, ul.tabs li:last-child a, .create-order-sidebar-container, .dashboard-container table tbody tr:first-child td:first-child .entry-edit, .popup-window, .entry-edit .box-left, .entry-edit .box-right{
+	overflow: hidden;
+}
+
+.switcher, .box, .dashboard-container table td + td .entry-edit, .options-box .option-box{
+	border: 1px solid #e5e5e5 !important;
+}
+.options-box .option-title, .options-box .option-header{
+	border-top: 1px solid #e5e5e5 !important;
+}
+.options-box .option-header{
+	border-bottom: 1px solid #e5e5e5 !important;
+	margin-bottom: 10px;
+}
+.options-box .option-title{
+	padding-top: 10px;
+	border-bottom: none !important;
+}
+
+.actions + div + .grid .data .headings th, .dashboard-container .entry-edit-head + fieldset .grid  .headings th, #customer_info_tabs_customer_edit_tab_view_content .grid .data .headings th, .adminhtml-report-statistics-index .grid .data .headings th, #cache_grid_table .headings th, #indexer_processes_grid_table  .headings th, .adminhtml-sales-order-shipment-new .entry-edit + #ship_items_container .grid .data .headings th, .adminhtml-sales-order-view .entry-edit + .grid .data .headings th, #product_attribute_tabs_labels_content .entry-edit-head + .box{
+	border-top: none !important;
+}
+
+.header-top{
+	background-position: 0 0;
+	background-color: #111;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333), to(#111));
+	background-image: -webkit-linear-gradient(#333, #111);
+	background-image: -moz-linear-gradient(top, #333, #111);
+	background-image: -ms-linear-gradient(#333, #111);
+	background-image: -o-linear-gradient(#333, #111);
+	background-image: linear-gradient(#333, #111);
+} 
+.nav-bar{
+	background-position: 0 0;
+	background-color: #111;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333), to(#111)) !important;
+	background-image: -webkit-linear-gradient(#333, #111) !important;
+	background-image: -moz-linear-gradient(top, #333, #111) !important;
+	background-image: -ms-linear-gradient(#333, #111) !important;
+	background-image: -o-linear-gradient(#333, #111) !important;
+	background-image: linear-gradient(#333, #111) !important;
+}
+dl.accordion dt, .entry-edit .entry-edit-head, ul.tabs-horiz, .message-popup-head, .dialog .top.table_window td, ul.config-tabs dt, .massaction td{
+	background-position: 0 0;
+	background-color: #990000;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cc0000), to(#990000));
+	background-image: -webkit-linear-gradient(#cc0000, #990000);
+	background-image: -moz-linear-gradient(top, #cc0000, #990000);
+	background-image: -ms-linear-gradient(#cc0000, #990000);
+	background-image: -o-linear-gradient(#cc0000, #990000);
+	background-image: linear-gradient(#cc0000, #990000);
+}
+.massaction td{
+	border-top: none !important;
+}
+.dialog{
+	border: 1px solid #444 !important;
+}
+.backup-dialog .entry-edit{
+	border: none !important;
+}
+.backup-dialog .buttons-set {
+	border: 1px solid #ddd !important;
+}
+.dialog table.top.table_window{
+	overflow: hidden;
+}
+.dialog table.mid.table_window{
+	overflow: hidden;
+}
+.dialog table.table_window {
+	border-collapse: separate;
+}
+.magento_w, .magento_e, .magento_content{
+	background: #fff !important;
+}
+.magento_close {
+	background: url(images/cancel_btn_icon.gif) no-repeat 0 0 !important;
+}
+.header-top{
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+}
+.backup-dialog{
+	background-color: #777777;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+/* Menu */
+.nav-bar{
+	border-top: 1px solid #383838 !important;
+	border-bottom: 1px solid #999999 !important;
+}
+.nav-bar li a{
+	background: none !important;
+}
+#nav ul li.parent a, #nav ul li.parent li.parent a{
+	background-image: url(images/nav2_parent_arrow.gif) !important;
+	background-repeat: no-repeat !important;
+	background-position: 95% 50% !important;
+}
+#nav ul li.parent li a, #nav ul li.parent li.parent li a{
+	background-image: none !important;
+}
+#nav > li.level0{
+	background: none !important;
+}
+#nav > li.level0 + li.level0{
+	border-left: 1px solid #333;
+}
+#nav li.active, #nav a:hover, #nav ul li a:hover, 
+button, button:hover, .form-button, ul.tabs a:hover, ul.tabs a.active, ul.tabs a:hover.active,
+ul.tabs a:hover span, ul.tabs a.active span,
+#nav ul li.parent li a:hover, #nav ul li.parent li.parent li a:hover{
+	background-position: 0 0;
+	background-color: #ff9900 !important;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff9900), to(#ff6600)) !important;
+	background-image: -webkit-linear-gradient(#ff9900, #ff6600) !important;
+	background-image: -moz-linear-gradient(top, #ff9900, #ff6600) !important;
+	background-image: -ms-linear-gradient(#ff9900, #ff6600) !important;
+	background-image: -o-linear-gradient(#ff9900, #ff6600) !important;
+	background-image: linear-gradient(#ff9900, #ff6600) !important;
+}
+ul.tabs a.active:hover span span{
+	background-color: none !important;
+}
+#nav li.over a, #nav li.active a, #nav li.active a.active, #nav li.over ul a:hover,
+#nav li.active, #nav a:hover, #nav ul li a:hover, 
+button, .form-button, ul.tabs a:hover, ul.tabs a.active, ul.tabs a:hover.active,
+ul.tabs a:hover span, ul.tabs a.active span, ul.tabs a:hover.active span,
+#nav ul li.parent li a:hover, #nav ul li.parent li.parent li a:hover{
+	color: #fff !important;
+}
+#nav a{
+	color: #999 !important;
+}
+.nav-bar #nav ul{
+	background: #fff !important;
+	-moz-box-shadow: 0 3px 8px #999; 
+	-webkit-box-shadow: 0 3px 8px #999; 
+	box-shadow: 0 3px 8px #999; 
+	border-top: none !important;
+}
+#nav ul li{
+	background: none !important;
+	padding: 0 !important;
+}
+#nav ul span, #nav ul li.last li span{
+	background: none !important;
+}
+#nav li.over ul a{
+	color: #333 !important;
+}
+.header-right, .header-right .separator{
+	color: #ccc;
+}
+input.input-text, textarea, select, .field-100 textarea, .field-100 input.input-text{
+	padding: 1px 3px !important;
+	border: 1px solid #ccc !important;
+	-moz-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.1); 
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.1); 
+}
+select{
+	padding: 1px !important;
+}
+.header-right input.input-text:focus, input.input-text:focus, textarea:focus, select:focus{
+	border: 1px solid #0066ff !important;
+	-moz-box-shadow: 0 0 10px #0066ff !important; 
+	-webkit-box-shadow: 0 0 10px #0066ff !important; 
+	box-shadow: 0 0 10px #0066ff !important;
+}
+
+/* Notification */
+.notification-global, .content-header-floating, .order-totals, .mm-box-blue, .mm-pager ul li a.active, .adminhtml-sales-order-shipment-new #ship_items_container .box-right.entry-edit .order-totals{
+	background-color: #fff2e5 !important;
+	border-color: #f2d0a8 !important;
+}
+.middle .notification-global{
+	border-width: 1px !important;
+	border-style: solid !important;
+}
+.adminhtml-sales-order-shipment-new #ship_items_container .box-right.entry-edit .order-totals{
+	border-style: solid !important;
+	border-width: 1px !important;
+}
+.grid table tfoot tr, .grid table tfoot tr td{
+	background-color: #fff2e5 !important;
+}
+.mm-pager ul li a{
+	border-color: #09f !important;
+}
+.content-header-floating{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	opacity: .90;
+}
+.notification-global a{
+	color: #f60 !important;
+}
+.notification-global a:hover{
+	color: #f90 !important;
+	text-decoration: underline !important;
+}
+.notification-global .label {
+	color: #c00 !important;
+}
+.notification-global span.critical{
+	color: #c00 !important;
+}
+
+/* Content header */
+.logo{
+	height: auto !important;
+}
+.content-header{
+	border-bottom: none !important;
+}
+.content-header h3{
+	margin: 0 .5em 0 0 !important;
+	font-size: 1.5em !important;
+	line-height: 1em !important;
+}
+.content-header-floating h3{
+	margin-left: 20px !important;
+}
+.switcher, .box, .login-form, .options-box .option-box{
+	background-position: 0 0;
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2)) !important;
+	background-image: -webkit-linear-gradient(#ffffff, #f2f2f2) !important;
+	background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2) !important;
+	background-image: -ms-linear-gradient(#ffffff, #f2f2f2) !important;
+	background-image: -o-linear-gradient(#ffffff, #f2f2f2) !important;
+	background-image: linear-gradient(#ffffff, #f2f2f2) !important;
+}
+.field-100{
+	padding: 0 7px 0 1px !important;
+	border: none !important;
+	background: none !important;
+}
+.field-100 textarea, .field-100 input.input-text{
+
+}
+.grid tr.filter .range .label{
+	font-size: 12px !important;
+}
+
+/* Grid */
+.headings th{
+	background-position: 0 0;
+	background-color: #dddddd !important;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), to(#dddddd)) !important;
+	background-image: -webkit-linear-gradient(#eeeeee, #dddddd) !important;
+	background-image: -moz-linear-gradient(top, #eeeeee, #dddddd) !important;
+	background-image: -ms-linear-gradient(#eeeeee, #dddddd) !important;
+	background-image: -o-linear-gradient(#eeeeee, #dddddd) !important;
+	background-image: linear-gradient(#eeeeee, #dddddd) !important;
+}
+.grid table{
+	border: none !important;
+}
+.grid tr.headings th{
+	border-right: none !important;
+}
+.grid tr.headings th{
+	border-top: solid 1px #bdbdbd !important;
+}
+.grid tr.headings th{
+	border-bottom: solid 1px #bdbdbd !important;
+}
+.grid tr.headings th{
+	border-left: solid 1px #bdbdbd !important;
+	border-right: solid 1px #bdbdbd !important;
+}
+.grid tr.headings th.last{
+	border-right: solid 1px #bdbdbd !important;
+}
+.grid tr.headings th + th{
+	border-left: none !important;
+}
+.grid tr.filter th{
+	border-left: 1px solid #bdbdbd;
+}
+.grid tr.filter th + th{
+	border-left: none !important;
+}
+.grid tr.filter th.last{
+	border-right: 1px solid #bdbdbd;
+}
+.grid table td{
+	border-left: solid 1px;
+	border-color: #e5e5e5 !important;
+}
+.grid table td.last{
+	border-right: solid 1px #e5e5e5;
+}
+.grid table td + td{
+	border-left: 0 !important;
+}
+.grid tr.headings th a{
+	color: #333333 !important;
+}
+.grid tr.headings th, .grid tr.headings th.no-link, .adminhtml-system-currency-index .grid .a-right strong, .adminhtml-system-currencysymbol-index .not-sort, .entry-edit .grid tr.headings th.no-link, .main-col-inner .grid tr.headings th{
+	color: #666;
+}
+.grid tr.headings th a.sort-arrow-desc, .grid tr.headings th a.sort-arrow-asc{
+	background: #f5f5f5;
+	-moz-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3) !important;  
+	-webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3) !important;   
+	box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3) !important;  
+	color: #333 !important;
+	border: none !important;
+}
+.grid tr.headings th a.sort-arrow-desc:hover, .grid tr.headings th a.sort-arrow-asc:hover{
+	color: #000 !important;
+	background: #ffffff;
+	-moz-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2) !important;    
+	-webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2) !important;   
+	box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2) !important;  
+}
+.grid tr.headings th a.sort-arrow-asc span.sort-title {
+	background-image: url(images/grid_sort_asc.png);
+}
+.grid tr.headings th a.sort-arrow-desc span.sort-title {
+	background-image: url(images/grid_sort_desc.png);
+}
+.grid tr.filter th{
+	background-position: 0 0;
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#e5e5e5));
+	background-image: -webkit-linear-gradient(#f2f2f2, #e5e5e5);
+	background-image: -moz-linear-gradient(top, #f2f2f2, #e5e5e5);
+	background-image: -ms-linear-gradient(#f2f2f2, #e5e5e5);
+	background-image: -o-linear-gradient(#f2f2f2, #e5e5e5);
+	background-image: linear-gradient(#f2f2f2, #e5e5e5);
+}
+.grid tr.on-mouse{
+	background: #e5f2ff !important;
+}
+.qty-table td{
+	border-radius: 0 !important;
+}
+#tracking_numbers_table td{
+	border-radius: 0 !important;
+}
+.data tfoot th{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* Button */
+button, .form-button{
+	border-color: #ff6600;
+	-moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.4);  
+	-webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.4);  
+	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.4); 
+}
+.content-buttons button, .content-header button, .filter-actions button{
+	margin-left: 5px !important;
+}
+button.add span {
+	background-image: url(images/add_btn_icon.gif);
+}
+button.save span {
+	background-image: url(images/save_btn_icon.png);
+}
+button.back, button.disabled, .message-popup .message-popup-head a{
+	background-position: 0 0;
+	background-color: #e6e6e6 !important;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#e6e6e6)) !important;
+	background-image: -webkit-linear-gradient(#f6f6f6, #e6e6e6) !important;
+	background-image: -moz-linear-gradient(top, #f6f6f6, #e6e6e6) !important;
+	background-image: -ms-linear-gradient(#f6f6f6, #e6e6e6) !important;
+	background-image: -o-linear-gradient(#f6f6f6, #e6e6e6) !important;
+	background-image: linear-gradient(#f6f6f6, #e6e6e6) !important;
+	border: solid 1px;
+	border-color: #cbcbcb !important; 
+	color: #555 !important;
+}
+button.back span {
+	background-image: url(images/icon_btn_back.png);
+}
+button.fail, button.cancel, button.delete, .reset-theme #delete_theme{
+	background-position: 0 0;
+	background-color: #ff3300 !important;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff3300), to(#cc3300)) !important;
+	background-image: -webkit-linear-gradient(#ff3300, #cc3300) !important;
+	background-image: -moz-linear-gradient(top, #ff3300, #cc3300) !important;
+	background-image: -ms-linear-gradient(#ff3300, #cc3300) !important;
+	background-image: -o-linear-gradient(#ff3300, #cc3300) !important;
+	background-image: linear-gradient(#ff3300, #cc3300) !important;
+	border: solid 1px;
+	border-color: #cc3300 !important; 
+	color: #fff !important;
+}
+.disabled{
+	text-shadow: none !important;
+}
+button.cancel span, button.delete span {
+	background-image: url(images/cancel_btn_icon.gif);
+}
+button.go span {
+	background-image: url(images/btn_go.gif);
+}
+button.show-hide span {
+	background-image: url(images/btn_show-hide_icon.png);
+}
+button.add-widget span {
+	background-image: url(images/btn_add-widget_icon2.png);
+}
+button.add-image span {
+	background-image: url(images/btn_add-image_icon.gif);
+}
+.magento_buttons button{
+	margin-left: 5px;
+}
+.magento_message .buttons-set button{
+	margin-right: 8px;
+}
+.entry-edit-head, .massaction, ul.tabs-horiz, .middle dl.accordion dt{
+	border: solid 1px #990000;
+}
+#answers_container .entry-edit-head{
+	margin-bottom: 15px;
+}
+.entry-edit .entry-edit-head h4, .entry-edit .entry-edit-head a{
+	font-size: 1em;
+	line-height: 25px;
+}
+.entry-edit .entry-edit-head h4, .entry-edit .entry-edit-head strong, .entry-edit .entry-edit-head a, .massaction, .massaction .entry-edit, .massaction .entry-edit label, .message-popup .message-popup-head h2, .accordion .ajax, .accordion dt a, ul.config-tabs dt, .magento_title{
+	color: #fff !important;
+}
+.adminhtml-dashboard-index .entry-edit fieldset.np, .adminhtml-dashboard-index .entry-edit .fieldset, .massaction .entry-edit fieldset{
+	border: none !important;
+}
+.dashboard-container .switcher{
+	margin: -4px -1px 0px -1px;
+}
+.dashboard-container table td + td .box .entry-edit{
+	background: #fff;
+	padding: 5px 0;
+}
+ul.tabs-horiz{
+	margin-left: -1px !important;
+	margin-right: -1px !important;
+	margin-top: -1px;
+	padding-top: 7px !important;
+}
+#category_info_tabs{
+	border-bottom: none !important;
+}
+ul.tabs-horiz li a{
+	background: #eeeeee !important;
+	border: none !important;
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);  
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);  
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); 
+}
+ul.tabs-horiz li a.active{
+	-moz-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);  
+	-webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2); 
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+	background: #fff !important;
+}
+.dashboard-container #diagram_tab, .dashboard-container #grid_tab{
+	border-bottom: none !important;
+}
+.config-heading .button span{
+	text-shadow: none !important;
+}
+.content-header-floating .content-header h3{
+	color: #000 !important;
+}
+.footer{
+	border-top: solid 1px #eeeeee;
+	padding: 2.8em !important;
+	margin: 50px 0 0 0;
+	background-position: 0 0;
+	background-color: #fafafa;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#ffffff));
+	background-image: -webkit-linear-gradient(#fafafa, #ffffff);
+	background-image: -moz-linear-gradient(top, #fafafa, #ffffff);
+	background-image: -ms-linear-gradient(#fafafa, #ffffff);
+	background-image: -o-linear-gradient(#fafafa, #ffffff);
+	background-image: linear-gradient(#fafafa, #ffffff);
+}
+.content-header-floating button{
+	padding-top: 0 !important;
+	padding-bottom: 2px !important;
+}
+
+/* Message */
+#message-popup-window-mask{
+	background-color: #000 !important;
+}
+.message-popup, .product-configure-popup{
+	padding: 0 !important;
+	-moz-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7); 
+	-webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7); 
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7); 
+}
+.message-popup{
+	background: none !important;
+}
+.message-popup .message-popup-head{
+	padding: 4px 0 !important;
+}
+.message-popup .message-popup-head h2{
+	font: bold 13px Trebuchet ms, geneva, Arial, Helvetica, sans-serif !important;
+}
+.message-popup .message-popup-head a{
+	margin-right: 10px;
+}
+.message-popup-content{
+	border: 1px solid #f2d0a8;
+	background: #fff2e5 !important;
+}
+.message-popup .message-popup-head a span {
+	float: left;
+	background: url(images/bkg_btn-close2.png) 0 50% no-repeat !important;
+}
+.message-popup .message-popup-content .read-more a{
+	background: url(images/more_arrow.png) 0 50% no-repeat !important;
+}
+.message-popup .message-popup-content .read-more a:hover{
+	text-decoration: underline !important;
+}
+
+/* Columns */
+.columns{
+	background: none;
+}
+ul.tabs a, ul.tabs span{
+	background: none;
+	color: #000 !important;
+}
+#nav a:hover, ul.tabs a:hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"/* IE8 */;
+	opacity: 1;
+}
+ul.tabs a, ul.tabs a.active, ul.tabs a:hover{
+	border: none !important;
+}
+ul.tabs li + li a, .config-tabs dl dd + dd a{
+	border-top: solid 1px #e5e5e5 !important;
+}
+ul.tabs a:hover, ul.tabs a.active, ul.tabs a:hover.active{
+	color: #fff;
+}
+ul.tabs li + li a:hover, ul.tabs li + li a.active, ul.tabs li + li a:hover.active, .config-tabs dl dd + dd a:hover, .config-tabs dl dd a.active{
+	padding: 1px 0 0 0 !important;
+}
+ul.tabs a:hover, ul.tabs a:hover span, .config-tabs dl dd + dd a:hover, .config-tabs dl dd a.active,
+.config-tabs dl dd + dd a:hover span, .config-tabs dl dd a.active span{
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important; 
+	box-shadow: none !important; 
+}
+ul.tabs a.error, ul.tabs a.error:hover{
+	background-color: #F2D0A8 !important;
+}
+ul.tabs a.error:hover{
+	background-color: #fff2e5 !important;
+}
+ul.config-tabs dt{
+	border-top: none !important;
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+}
+ul.config-tabs dl{
+	margin-bottom: 0 !important;
+}
+ul.tabs{
+	background: #fff;
+	border: solid 1px #e5e5e5 !important;
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.07); 
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.07); 
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.07); 
+	overflow: hidden;
+}
+.tier .data, .grid table.border{
+	overflow: hidden;
+}
+.grid table.border tfoot tr td{
+	background: #fff !important;
+}
+.fieldset-wide .form-list td.value input.input-text{
+	 width: 95% !important;
+}
+.grid table tfoot tr td{
+	border-top: none !important;
+}
+.store-scope .tree-store-scope, .custom-options .option-box, .super-attributes li.attribute{
+	border: solid 1px #e5e5e5 !important;
+	background: #fff !important;
+}
+.custom-options .option-header{
+	background: #fff !important;
+	border-bottom: none !important;
+}
+.grid .data.order-tables td{
+	border-bottom: solid 1px #e5e5e5 !important;
+}
+input.validation-failed, .validation-failed{
+	border: 1px solid #ff3300 !important;
+}
+input.validation-failed:focus, .validation-failed:focus{
+	border: 1px solid #ff3300 !important;
+	-moz-box-shadow: 0 0 10px #ff3300 !important; 
+	-webkit-box-shadow: 0 0 10px #ff3300 !important; 
+	box-shadow: 0 0 10px #ff3300 !important;
+}
+.notice-msg{
+	border: 1px solid #f2d0a8 !important;
+	background-color: #fff2e5 !important;
+	color: #cc6600 !important;
+}
+.error-msg {
+	border: 1px solid #FFD9D9 !important;
+	color: #c00 !important;
+	background-color: #FFF2F2 !important;
+}
+.success-msg {
+	border: 1px solid #CCF2BF !important;
+	color: #390 !important;
+	background-color: #F2FFF2 !important;
+}
+.order-totals{
+	border-top: none !important;
+}
+.emph, .accent{
+	color: #000 !important;
+	font-size: 14px;
+}
+dl.accordion dt a, div.collapseable a{
+	line-height: 2em;
+}
+dl.accordion dt a, div.collapseable a {
+	background: url(images/entry_edit_head_arrow_down.gif) 100% 50% no-repeat;
+}
+dl.accordion dt.open a, div.collapseable a.open {
+	background: url(images/entry_edit_head_arrow_up.gif) 100% 50% no-repeat;
+}
+.grid table tfoot tr td, .order-choose-address, .order-save-in-address-book{
+	background: #f5f5f5 !important;
+}
+.order-choose-address{
+	border-bottom: solid 1px #e5e5e5 !important;
+}
+.order-save-in-address-book{
+	border-top: solid 1px #e5e5e5 !important;
+}
+.sub-btn-set{
+	border: solid 1px #e5e5e5 !important;
+}
+#address_list li{
+	border: solid 1px #e5e5e5 !important;
+	border-top: none !important;
+}
+.address-list li.on{
+	background: #f1f1f1;
+}
+.address-list .btn-remove-address, .rule-param-remove{
+	background: url(images/cancel_icon.png) 50% 50% no-repeat;
+}
+.address-list .btn-edit-address{
+	background: url(images/edit_icon.png) 50% 50% no-repeat;
+}
+.rule-param-new-child .label{
+	background: url(images/rule_component_add.png) 50% 50% no-repeat;
+}
+.address-list .btn-remove-address img, .address-list .btn-edit-address  img, .rule-param-remove img, .rule-param-new-child .label img{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); 
+	opacity: 0;
+}
+.order-totals .divider{
+	background: #f2d0a8 !important;
+}
+.create-order-sidebar-container .sub-btn-set{
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: none !important;
+}
+.create-order-sidebar-container{
+	border: solid 1px #e5e5e5 !important;
+}
+.create-order-sidebar-block .head{
+	border-top: solid 1px #e5e5e5 !important;
+	border-bottom: solid 1px #e5e5e5 !important;
+	background: #f5f5f5 !important;
+}
+#moneybookers_multifuncbutton span{
+	margin-top: 0 !important;
+}
+
+/* Login */
+.login-form, .login-container .legal, .login-box .bottom, .login-container, .login-box{
+	background-image: none;
+}
+.login-form{
+	margin-bottom: 10px;
+}
+.login-logo{
+	margin-bottom: 3px;
+	width: 581px;
+	padding-left: 34px;
+	line-height: 0;
+}
+.login-logo-img{
+	background-position: 0 0;
+	background-color: #111;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333), to(#111));
+	background-image: -webkit-linear-gradient(#333, #111);
+	background-image: -moz-linear-gradient(top, #333, #111);
+	background-image: -ms-linear-gradient(#333, #111);
+	background-image: -o-linear-gradient(#333, #111);
+	background-image: linear-gradient(#333, #111);
+	border: solid 1px #000000;
+	padding: 3px 0;
+}
+.login-container{
+	padding-left: 0;
+}
+.login-box{
+	width: 581px;
+	padding-left: 34px;
+	position: relative;
+}
+.login-form .input-box input.input-text{
+	width: 220px;
+}
+.legal{
+	margin-top: 10px;
+}
+.magento-login-logo{
+	line-height: 0;
+	position: absolute;
+	left: 0;
+}
+.magento-login-logo img{
+	position: relative;
+	z-index: -1;
+}
+.login-container .legal{
+	background-position: 0 0;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff)) !important;
+	background-image: -webkit-linear-gradient(#ffffff, #ffffff) !important;
+	background-image: -moz-linear-gradient(top, #ffffff, #ffffff) !important;
+	background-image: -ms-linear-gradient(#ffffff, #ffffff) !important;
+	background-image: -o-linear-gradient(#ffffff, #ffffff) !important;
+	background-image: linear-gradient(#ffffff, #ffffff) !important;
+}

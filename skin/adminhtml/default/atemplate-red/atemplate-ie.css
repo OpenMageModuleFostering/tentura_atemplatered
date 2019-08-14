@@ -1,0 +1,78 @@
+.header-right a, #page-help-link, .massaction a, .footer a, .link-feed{
+	display: inline-block;
+}
+.form-list .value textarea + button{
+	margin-top: 5px;
+}
+button.delete.v-middle {
+	margin-left: 5px;
+}
+.link-feed{
+	background-position: 0 5px;
+}
+.dashboard-container table td + td .entry-edit div ul.tabs-horiz{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.header-top{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#111111', GradientType=0);
+} 
+.nav-bar{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#111111', GradientType=0);
+} 
+dl.accordion dt, .entry-edit .entry-edit-head, .dashboard-container table tbody tr:first-child td:first-child .entry-edit .entry-edit-head, ul.tabs-horiz, .message-popup-head, .dialog .top.table_window td, ul.config-tabs dt, .massaction td{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc0000', endColorstr='#990000', GradientType=0) !important;
+}
+#nav ul{
+	border: solid 1px #ccc !important;
+}
+.switcher, .box, .login-form{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0);
+}
+.login-container .legal{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+}
+.grid tr.filter{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#e5e5e5', GradientType=0);
+}
+#nav li.active:first-child, #nav li.parent.active a.active, #nav li.parent.active a:hover, #nav a:hover, #nav ul li a:hover, button, button:hover, .form-button, ul.tabs a:hover, ul.tabs a.active, ul.tabs a:hover.active, ul.tabs a:hover span, ul.tabs a.active span, #nav ul li.parent li a:hover, #nav ul li.parent li.parent li a:hover{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9900', endColorstr='#ff6600', GradientType=0) !important;	
+}
+#nav li.active ul a{
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false) !important;	
+}
+button:hover, .form-button:hover{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8ff9900', endColorstr='#d8ff6600', GradientType=0) !important;	
+}
+button.fail, button.cancel, button.delete, .reset-theme #delete_theme{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3300', endColorstr='#cc3300', GradientType=0) !important;
+}
+button.fail:hover, button.cancel:hover, button.delete:hover, .reset-theme #delete_theme:hover, .reset-theme #delete_theme.disabled:hover{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8ff3300', endColorstr='#d8cc3300', GradientType=0) !important;
+}
+button.back, button.disabled, #synchronize_button.disabled, .message-popup .message-popup-head a{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#e6e6e6', GradientType=0) !important;
+}
+button.back:hover, button.disabled:hover, .message-popup .message-popup-head a:hover{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8f6f6f6', endColorstr='#d8e6e6e6', GradientType=0) !important;
+}
+ul.tabs .active:hover .changed, ul.tabs .changed .changed, ul.tabs  span.changed, ul.tabs .changed .error, ul.tabs a.active .error, ul.tabs a.error:hover .error{
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false) !important;
+}
+.footer{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#ffffff', GradientType=0);
+}
+.login-logo-img{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#111111', GradientType=0);
+}
+.data .headings th{
+	-moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);  
+	-webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);  
+	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2); 
+}
+span.atemplate-ie, span.atemplate-ie9, .atemplate-ie8{
+	line-height: 15px;
+}
+span.atemplate-ie, span.atemplate-ie9{
+	width: 125px;
+}

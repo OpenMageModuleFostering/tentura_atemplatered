@@ -1,0 +1,34 @@
+dl.accordion dt, ul.tabs-horiz, .message-popup-head, .top.table_window, .switcher, .box, .login-form, .legal, .grid tr.filter, .options-box .option-box, .login-logo-img, #base_fieldset + .entry-edit-head, #rating_form  + .entry-edit-head, #product_attribute_tabs_labels_content .entry-edit-head, #mobile_app_tabs_social_section_content .fieldset + .entry-edit-head, #mobile_app_tabs_payment_methods_content .fieldset + .entry-edit-head, #customer_info_tabs_account_content .fieldset + .entry-edit-head, #customer_info_tabs_addresses_content .address-list .entry-edit-head, #promo_catalog_edit_tabs_actions_section_content .fieldset + .rule-tree .entry-edit-head, #promo_catalog_edit_tabs_labels_section_content .fieldset + .entry-edit-head, #page_tabs_design_section_content .fieldset + .entry-edit-head, #profile-generator fieldset + .entry-edit-head, #profile-generator fieldset + #__fieldmapping .entry-edit-head, #connect_extension_edit_tabs_dependencies_content .fieldset + .entry-edit-head, #connect_extension_edit_tabs_dependencies_content fieldset + .entry-edit-head, .form-list .value .entry-edit-head, #answers_container .entry-edit-head, #cache_grid .massaction td{
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false) !important;
+	-moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);  
+	-webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);  
+	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2); 
+}
+#poll_tabs_answers_section_content, #connect_extension_edit_tabs_load_local_package_content, #config_edit_form .entry-edit{
+		padding-top: 3px !important;
+	}
+#html-body button, button, button:hover, button.back, button.back:hover, button.fail, button.cancel, button.delete, button.fail:hover, button.cancel:hover, button.delete:hover, .form-button, .form-button:hover, .message-popup .message-popup-head a, .message-popup .message-popup-head a:hover, #html-body button:hover, #html-body .form-button:hover, #html-body button.fail:hover, #html-body button.cancel:hover, #html-body button.delete:hover, #html-body button.back:hover, #html-body button.disabled:hover, #html-body .message-popup .message-popup-head a:hover, .reset-theme #delete_theme, .reset-theme #delete_theme.disabled:hover{
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false) !important;
+}
+
+input.input-text, .field-100 input.input-text{
+	padding-top: 2px !important;
+	padding-bottom: 3px !important;
+	line-height: 15px !important;
+}
+#nav li.active, #nav a:hover, #nav ul li a:hover, 
+button, button:hover, .form-button, ul.tabs a:hover, ul.tabs a.active, ul.tabs a:hover.active, #nav ul li.parent li a:hover, #nav ul li.parent li.parent li a:hover, .message-popup .message-popup-head a, .dialog .top.table_window, ul.config-tabs dt{
+	background-image: none !important;
+}
+#html-body button:hover, #html-body .form-button:hover, button.fail, button.cancel, button.delete, #html-body button.fail:hover, #html-body button.cancel:hover, #html-body button.delete:hover, button.back, .message-popup .message-popup-head a, #html-body button.back:hover, #html-body .message-popup .message-popup-head a:hover {
+	background-color: none !important;
+}
+#nav li.active.parent{
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false) !important;
+}
+.actions + .grid .hor-scroll .data, .actions + .grid .data, .adminhtml-api2-attribute-index .grid .hor-scroll .data, .adminhtml-system-currency-index .grid table, .adminhtml-system-currencysymbol-index .grid .hor-scroll .data, .entry-edit .entry-edit-head + fildset .grid table, .entry-edit .entry-edit-head + fieldset .grid table, .grid table, #productsOrderedGrid_table, #productsReviewedGrid_table, #customersNewestGrid_table, #customersMostGrid_table, .magento-login-logo, ul.tabs li:first-child a, ul.tabs li:last-child a, .create-order-sidebar-container, .dashboard-container table tbody tr:first-child td:first-child .entry-edit, .popup-window, .entry-edit, .entry-edit .box-left, .entry-edit .box-right, #product_attribute_tabs .entity-edit, .actions + .grid, #api2_attributes .hor-scroll, #config_edit_form .section-config, #template_configuration .section-config{
+	overflow: hidden;
+}
+.atemplate-ie, .atemplate-ie9{
+	display: block;
+}

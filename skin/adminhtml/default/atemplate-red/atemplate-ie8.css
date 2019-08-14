@@ -1,0 +1,47 @@
+.dialog table.top.table_window, ul.config-tabs dt, tfoot button.disabled{	
+	background: none !important;
+}
+.massaction button{
+	height: auto !important;
+}
+#html-body button:hover, #html-body .form-button:hover, #html-body button.fail:hover, button.cancel:hover, button.delete:hover, #html-body button.back:hover, button.disabled:hover, .message-popup .message-popup-head a:hover{
+	background-color: #ffffff !important;
+}
+button, button.delete{
+	background-image: none;
+}
+tfoot button.disabled, tfoot button.disabled:hover{
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false) !important;
+}
+.switcher, .box, .login-form, ul.tabs, #nav a, ul.config-tabs dt{
+	zoom: 1;
+}
+.entry-edit fieldset{
+	outline: none;
+}
+#nav ul li {
+	width: 189px;
+}
+button.icon-btn span {
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+#map_container_product .delete span{
+	height: 16px;
+	display: block;
+}
+.grid tr.headings th a.sort-arrow-desc, .grid tr.headings th a.sort-arrow-asc{
+	border-top: 1px solid #cacaca;
+	border-left: 1px solid #cacaca;
+}
+.dialog table.table_window{
+	border-collapse: collapse;
+}
+.atemplate-ie{
+	display: block;
+}
+.atemplate-ie8{
+	display: block;
+	clear: both;
+}
