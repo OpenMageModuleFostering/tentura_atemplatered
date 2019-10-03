@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Tentura_Atemplatered",
+    "name": "OpenMageModuleFostering\/Tentura_Atemplatered",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": "Red Magento Admin Template for your Magento shop ",
     "authors": [
-    {
-        "name": "Tentura Team",
-        "email": "info@tentura.eu"
-    }
-],
+        {
+            "name": "Tentura Team",
+            "email": "info@tentura.eu"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
